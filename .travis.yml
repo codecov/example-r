@@ -1,9 +1,6 @@
 language: r
 env: _R_CHECK_CRAN_INCOMING_=FALSE
 
-r_packages:
-  - testthat
-
 r_github_packages:
   - stevepeak/covr
   - codecov/example-r
