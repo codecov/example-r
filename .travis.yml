@@ -1,0 +1,10 @@
+language: r
+
+r_packages:
+  - testthat
+
+r_github_packages:
+  - stevepeak/covr
+
+after_success:
+  - Rscript -e 'library(covr);codecov()'
