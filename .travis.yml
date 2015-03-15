@@ -6,6 +6,7 @@ r_packages:
 
 r_github_packages:
   - stevepeak/covr
+  - codecov/example-r
 
 after_success:
   - Rscript -e 'library(covr);codecov()'
