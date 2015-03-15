@@ -1,0 +1,8 @@
+Type: Package
+Package: codecov.R
+Title: A minimal R package including some unit tests
+Description: This package demostrates how "covr" and "codecov.io" can report test coverage on R packages
+Author: Gergely Daróczi <daroczig@rapporter.net>
+Maintainer: Gergely Daróczi <daroczig@rapporter.net>
+Version: 0.1
+Date: 2015-03-07
