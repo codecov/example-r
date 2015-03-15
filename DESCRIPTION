@@ -5,4 +5,5 @@ Description: This package demostrates how "covr" and "codecov.io" can report tes
 Author: Gergely Daróczi <daroczig@rapporter.net>
 Maintainer: Gergely Daróczi <daroczig@rapporter.net>
 Version: 0.1
-Date: 2015-03-07
+Date: 2015-03-14
+License: GPL-3
