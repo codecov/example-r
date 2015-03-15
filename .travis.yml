@@ -1,4 +1,5 @@
 language: r
+env: _R_CHECK_CRAN_INCOMING_=FALSE
 
 r_packages:
   - testthat
