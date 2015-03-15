@@ -5,7 +5,9 @@
 tested <- function(x) {
 
     ## error handling
-    stopifnot(is.numeric(x) | is.character(x))
+    if (!(is.numeric(x) | is.character(x))) {
+        stop('Wrong object type, only numeric or character is supported.')
+    }
 
     ## do something with numbers
     if (is.numeric(x)) {
