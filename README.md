@@ -4,7 +4,7 @@
 
 Example of how to integrate your **awesome** [R](http://www.r-project.org/) project with [Codecov.io](https://codecov.io)!
 
-## [![travis-org](https://avatars2.githubusercontent.com/u/639823?v=2&s=50)](https://travis-ci.org) Use with Travis
+## Using Travis CI
 
 Append to your `.travis.yml`
 
@@ -12,6 +12,9 @@ Append to your `.travis.yml`
 after_success:
   - Rscript -e 'library(covr); codecov()'
 ```
+
+## Using Wercker CI
+@jimhester wrote a thorough description found here: [jimhester/wercker-r-example](https://github.com/jimhester/wercker-r-example)
 
 ## Results
 
