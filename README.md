@@ -9,6 +9,9 @@ Example of how to integrate your **awesome** [R](http://www.r-project.org/) proj
 Append to your `.travis.yml`
 
 ```yml
+r_github_packages:
+  - jimhester/covr
+
 after_success:
   - Rscript -e 'library(covr); codecov()'
 ```
