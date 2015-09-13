@@ -1,4 +1,4 @@
-## load some dependencies
+## load dependencies
 library(testthat)
 library(codecov.R)
 
