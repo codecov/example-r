@@ -1,24 +1,35 @@
-# R example repository for codecov.io
+# [Codecov][1] R Example
 
 [![Build Status](https://img.shields.io/travis/codecov/example-r/master.svg)](https://travis-ci.org/codecov/example-r) [![codecov](https://codecov.io/github/codecov/example-r/branch/master/graphs/badge.svg)](https://codecov.io/github/codecov/example-r) 
 
-Example of how to integrate your **awesome** [R](http://www.r-project.org/) project with [Codecov.io](https://codecov.io)!
+## Guide
+### Travis Setup
 
-## Using Travis CI
-
-Append to your `.travis.yml`
+Add to your `.travis.yml` file.
 
 ```yml
+language: r
+
 r_packages:
   - covr
 
 after_success:
   - Rscript -e 'library(covr); codecov()'
 ```
+## Support
 
-## Using Wercker CI
-@jimhester wrote a thorough description found here: [jimhester/wercker-r-example](https://github.com/jimhester/wercker-r-example)
+### Contact
+- Intercom (in-app messanger)
+- Email: support@codecov.io
+- Slack: slack.codecov.io
+- [gh/codecov/support](https://github.com/codecov/support)
 
-## Results
+1. More documentation at https://docs.codecov.io
+2. Configure codecov through the `codecov.yml`  https://docs.codecov.io/docs/codecov-yaml
 
-See the coverage reports of this repository at [codecov.io](https://codecov.io/github/codecov/example-r)
+
+
+[1]: https://codecov.io/
+[2]: https://github.com/codecov/example-php/blob/master/.travis.yml#L15
+[3]: https://github.com/codecov/example-php/blob/master/.travis.yml#L18
+[4]: https://github.com/codecov/codecov-python
