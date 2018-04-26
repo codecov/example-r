@@ -69,4 +69,4 @@ covr::package_coverage(type = "tests")
 
 See the coverage reports of this repository at [codecov.io](https://codecov.io/github/codecov/example-r)
 
-
+We are happy to help if you have any questions. Please contact email our Support at [support@codecov.io](mailto:support@codecov.io)
